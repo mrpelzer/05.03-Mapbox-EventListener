@@ -8,20 +8,10 @@ var mapProps = {
 	zoom: 9
 };
 
-
-
 var map = new mapboxgl.Map(mapProps);
 
-map.on("click", function(evt){
+map.on(" event ", function(evt){
 
-	console.log( evt.lngLat );
 	
-});
-
-
-
-map.on("click", (evt) => {
-
-	console.log( evt.lngLat );
-
+	
 });
