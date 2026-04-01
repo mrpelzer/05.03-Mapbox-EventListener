@@ -19,3 +19,7 @@ You need to implement the following:
 3. **Display the Count**
    - Select an input box from the DOM.
    - Update the value of the input box with the latest counter value after each click.
+
+4. **Double Click Countert**
+   - Create a new event listener that listens for double click
+   - Update the value by adding 4 to the current value 
