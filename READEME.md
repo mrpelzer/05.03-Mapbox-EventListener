@@ -7,19 +7,20 @@ In this project, you will build a simple interactive feature that tracks how man
 
 You need to implement the following:
 
-0. ** Initialize the map with the token **
-1. **Map Click Event Listener**
+1. **Initialize the map with the token**
+
+2. **Map Click Event Listener**
    - Add an event listener to the map.
    - Detect when the user clicks anywhere on the map.
 
-2. **Counter Logic**
+3. **Counter Logic**
    - Initialize a counter variable (starting at 0).
    - Every time the map is clicked, increment the counter by 1.
 
-3. **Display the Count**
+4. **Display the Count**
    - Select an input box from the DOM.
    - Update the value of the input box with the latest counter value after each click.
 
-4. **Double Click Countert**
+5. **Double Click Countert**
    - Create a new event listener that listens for double click
    - Update the value by adding 4 to the current value 
